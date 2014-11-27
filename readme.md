@@ -12,9 +12,9 @@ ARC support needed in this project
 - Change the class of NSView to `ScrollingTextView` in Interface Builder
 - Make sure you add this few lines of code to init the `ScrollingTextView`
 
-    // Where kSampleText is a NSString instance
+    `// Where kSampleText is a NSString instance`
     
-    [self.view setString:kSampleText];
+    `[self.view setString:kSampleText];`
 
 - Done
 
