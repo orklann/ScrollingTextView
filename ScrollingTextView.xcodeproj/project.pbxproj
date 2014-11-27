@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93F7E55B1A27108900D37BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E55A1A27108900D37BA6 /* AppDelegate.m */; };
+		93F7E55D1A27108900D37BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E55C1A27108900D37BA6 /* main.m */; };
+		93F7E55F1A27108900D37BA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F7E55E1A27108900D37BA6 /* Images.xcassets */; };
+		93F7E5621A27108900D37BA6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F7E5601A27108900D37BA6 /* MainMenu.xib */; };
+		93F7E56E1A27108900D37BA6 /* ScrollingTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E56D1A27108900D37BA6 /* ScrollingTextViewTests.m */; };
+		93F7E57A1A2710BC00D37BA6 /* ScrollingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E5791A2710BC00D37BA6 /* ScrollingTextView.m */; };
+		93F7E57C1A271C1400D37BA6 /* Elk-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F7E57B1A271C1400D37BA6 /* Elk-512x512.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93F7E5681A27108900D37BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93F7E54C1A27108800D37BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F7E5531A27108900D37BA6;
+			remoteInfo = ScrollingTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93F7E5541A27108900D37BA6 /* ScrollingTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F7E5581A27108900D37BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F7E5591A27108900D37BA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93F7E55A1A27108900D37BA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93F7E55C1A27108900D37BA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93F7E55E1A27108900D37BA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93F7E5611A27108900D37BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		93F7E5671A27108900D37BA6 /* ScrollingTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F7E56C1A27108900D37BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F7E56D1A27108900D37BA6 /* ScrollingTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollingTextViewTests.m; sourceTree = "<group>"; };
+		93F7E5781A2710BC00D37BA6 /* ScrollingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingTextView.h; sourceTree = "<group>"; };
+		93F7E5791A2710BC00D37BA6 /* ScrollingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingTextView.m; sourceTree = "<group>"; };
+		93F7E57B1A271C1400D37BA6 /* Elk-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elk-512x512.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93F7E5511A27108900D37BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F7E5641A27108900D37BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93F7E54B1A27108800D37BA6 = {
+			isa = PBXGroup;
+			children = (
+				93F7E5561A27108900D37BA6 /* ScrollingTextView */,
+				93F7E56A1A27108900D37BA6 /* ScrollingTextViewTests */,
+				93F7E5551A27108900D37BA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93F7E5551A27108900D37BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93F7E5541A27108900D37BA6 /* ScrollingTextView.app */,
+				93F7E5671A27108900D37BA6 /* ScrollingTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93F7E5561A27108900D37BA6 /* ScrollingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				93F7E57B1A271C1400D37BA6 /* Elk-512x512.png */,
+				93F7E5771A27109200D37BA6 /* ScrollingTextView */,
+				93F7E5591A27108900D37BA6 /* AppDelegate.h */,
+				93F7E55A1A27108900D37BA6 /* AppDelegate.m */,
+				93F7E55E1A27108900D37BA6 /* Images.xcassets */,
+				93F7E5601A27108900D37BA6 /* MainMenu.xib */,
+				93F7E5571A27108900D37BA6 /* Supporting Files */,
+			);
+			path = ScrollingTextView;
+			sourceTree = "<group>";
+		};
+		93F7E5571A27108900D37BA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93F7E5581A27108900D37BA6 /* Info.plist */,
+				93F7E55C1A27108900D37BA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93F7E56A1A27108900D37BA6 /* ScrollingTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				93F7E56D1A27108900D37BA6 /* ScrollingTextViewTests.m */,
+				93F7E56B1A27108900D37BA6 /* Supporting Files */,
+			);
+			path = ScrollingTextViewTests;
+			sourceTree = "<group>";
+		};
+		93F7E56B1A27108900D37BA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93F7E56C1A27108900D37BA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93F7E5771A27109200D37BA6 /* ScrollingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				93F7E5781A2710BC00D37BA6 /* ScrollingTextView.h */,
+				93F7E5791A2710BC00D37BA6 /* ScrollingTextView.m */,
+			);
+			name = ScrollingTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93F7E5531A27108900D37BA6 /* ScrollingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F7E5711A27108900D37BA6 /* Build configuration list for PBXNativeTarget "ScrollingTextView" */;
+			buildPhases = (
+				93F7E5501A27108900D37BA6 /* Sources */,
+				93F7E5511A27108900D37BA6 /* Frameworks */,
+				93F7E5521A27108900D37BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollingTextView;
+			productName = ScrollingTextView;
+			productReference = 93F7E5541A27108900D37BA6 /* ScrollingTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93F7E5661A27108900D37BA6 /* ScrollingTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F7E5741A27108900D37BA6 /* Build configuration list for PBXNativeTarget "ScrollingTextViewTests" */;
+			buildPhases = (
+				93F7E5631A27108900D37BA6 /* Sources */,
+				93F7E5641A27108900D37BA6 /* Frameworks */,
+				93F7E5651A27108900D37BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F7E5691A27108900D37BA6 /* PBXTargetDependency */,
+			);
+			name = ScrollingTextViewTests;
+			productName = ScrollingTextViewTests;
+			productReference = 93F7E5671A27108900D37BA6 /* ScrollingTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93F7E54C1A27108800D37BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Aaron Elkins";
+				TargetAttributes = {
+					93F7E5531A27108900D37BA6 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					93F7E5661A27108900D37BA6 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 93F7E5531A27108900D37BA6;
+					};
+				};
+			};
+			buildConfigurationList = 93F7E54F1A27108800D37BA6 /* Build configuration list for PBXProject "ScrollingTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93F7E54B1A27108800D37BA6;
+			productRefGroup = 93F7E5551A27108900D37BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93F7E5531A27108900D37BA6 /* ScrollingTextView */,
+				93F7E5661A27108900D37BA6 /* ScrollingTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93F7E5521A27108900D37BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F7E55F1A27108900D37BA6 /* Images.xcassets in Resources */,
+				93F7E5621A27108900D37BA6 /* MainMenu.xib in Resources */,
+				93F7E57C1A271C1400D37BA6 /* Elk-512x512.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F7E5651A27108900D37BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93F7E5501A27108900D37BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F7E57A1A2710BC00D37BA6 /* ScrollingTextView.m in Sources */,
+				93F7E55D1A27108900D37BA6 /* main.m in Sources */,
+				93F7E55B1A27108900D37BA6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F7E5631A27108900D37BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F7E56E1A27108900D37BA6 /* ScrollingTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93F7E5691A27108900D37BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93F7E5531A27108900D37BA6 /* ScrollingTextView */;
+			targetProxy = 93F7E5681A27108900D37BA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93F7E5601A27108900D37BA6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93F7E5611A27108900D37BA6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93F7E56F1A27108900D37BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		93F7E5701A27108900D37BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		93F7E5721A27108900D37BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScrollingTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93F7E5731A27108900D37BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScrollingTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93F7E5751A27108900D37BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScrollingTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingTextView.app/Contents/MacOS/ScrollingTextView";
+			};
+			name = Debug;
+		};
+		93F7E5761A27108900D37BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScrollingTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingTextView.app/Contents/MacOS/ScrollingTextView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93F7E54F1A27108800D37BA6 /* Build configuration list for PBXProject "ScrollingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F7E56F1A27108900D37BA6 /* Debug */,
+				93F7E5701A27108900D37BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F7E5711A27108900D37BA6 /* Build configuration list for PBXNativeTarget "ScrollingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F7E5721A27108900D37BA6 /* Debug */,
+				93F7E5731A27108900D37BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F7E5741A27108900D37BA6 /* Build configuration list for PBXNativeTarget "ScrollingTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F7E5751A27108900D37BA6 /* Debug */,
+				93F7E5761A27108900D37BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93F7E54C1A27108800D37BA6 /* Project object */;
+}
